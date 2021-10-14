@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 350px;
+  background-color: #ece9e1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sidebar img {
+  margin-top: 2%;
+  border-radius: 10px;
+}
+.sidebar h2 {
+  padding: 0;
+  margin: 4%;
+  color: black;
+}
+
+.nav {
+  margin-top: 1%;
+  width: 250px;
+  display: block;
+  color: white;
+  background-color: #3d3d3d;
+  padding: 0.7rem 0rem;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.nav.active {
+  background-color: white;
+  color: #000000;
+  font-weight: 900;
+}
+
+.nav:hover:not(.active) {
+  background-color: #f61329;
+  color: white;
+}
+
+.mail,
+.googlescholar {
+  color: black;
+  margin: 4% 0;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+.container {
+  margin-left: 350px;
+  padding: 1px 16px;
+  height: 1000px;
+  color: #3d3d3d;
+}
+.about-me {
+  padding-left: 4%;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+.education {
+  margin: 0;
+  padding: 0;
+  padding-left: 4%;
+  line-height: 1.6;
+}
+.hreducation {
+  margin-left: 4%;
+}
+
+.publication-link,
+.publication-link:visited,
+.publication-link:hover,
+.publication-link:active {
+  text-decoration: none;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.icon {
+  background: black;
+  display: none;
+}
+
+#myLinks {
+  display: none;
+}
+
+#myLinks a {
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+@media screen and (max-width: 760px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sidebar a {
+    float: center;
+  }
+  .container {
+    margin-left: 0;
+  }
+  .mail {
+    margin: 2% 0;
+  }
+  .googlescholar {
+    margin: 2% 0;
+  }
+  .icon {
+    background: black;
+    color: white;
+    padding: 2%;
+    border-radius: 10px;
+    display: block;
+  }
+  .nav {
+    display: none;
+  }
+}
