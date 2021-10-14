@@ -81,10 +81,14 @@ h1 {
   padding: 0;
   padding-left: 4%;
   line-height: 1.6;
+  margin-bottom:2%;
+  margin-top: 2%;
 }
 .hreducation {
   margin-left: 4%;
 }
+
+
 
 .publication-link,
 .publication-link:visited,
