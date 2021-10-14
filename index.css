@@ -73,8 +73,9 @@ h1 {
 }
 .about-me {
   padding-left: 4%;
-  font-size: 1.05rem;
+  font-size: 1.07rem;
   line-height: 1.6;
+  text-align: justify;
 }
 .education {
   margin: 0;
