@@ -29,7 +29,7 @@ body {
 }
 
 .nav {
-  margin-top: 1%;
+  margin-top: 2%;
   width: 250px;
   display: block;
   color: white;
@@ -82,14 +82,12 @@ h1 {
   padding: 0;
   padding-left: 4%;
   line-height: 1.6;
-  margin-bottom:2%;
+  margin-bottom: 2%;
   margin-top: 2%;
 }
 .hreducation {
   margin-left: 4%;
 }
-
-
 
 .publication-link,
 .publication-link:visited,
