@@ -10,7 +10,6 @@ function myFunction() {
 window.addEventListener("resize", closeMobileMenu);
 function closeMobileMenu() {
   if (window.innerWidth >= 760) {
-    console.log("hiiiii");
     x.style.display = "none";
   }
 }
