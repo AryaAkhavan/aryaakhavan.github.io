@@ -11,6 +11,9 @@ body {
   font-weight: 900;
   font-size: 18px;
 }
+.h1-name h1 {
+  color: #616161;
+}
 
 .sidebar {
   margin: 0;
@@ -73,6 +76,9 @@ body {
   padding: 1px 16px;
   height: 1000px;
   color: #3d3d3d;
+}
+.container h2 {
+  color: #616161;
 }
 .about-me {
   padding-left: 4%;
