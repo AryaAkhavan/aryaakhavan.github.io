@@ -40,7 +40,6 @@ body {
   text-align: center;
   font-weight: 700;
   border-radius: 10px;
-  
 }
 
 .nav.active {
@@ -78,6 +77,10 @@ h1 {
   font-size: 1.07rem;
   line-height: 1.6;
 }
+.about-me a {
+  text-decoration: none;
+}
+
 .education {
   margin: 0;
   padding: 0;
