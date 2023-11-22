@@ -5,11 +5,17 @@ body {
   text-align: justify;
 }
 
+.h1-name {
+  height: 80px;
+  padding: 20px 0 30px 0;
+  font-weight: 900;
+  font-size: 18px;
+}
+
 .sidebar {
   margin: 0;
   padding: 0;
   width: 350px;
-  background-color: #ece9e1;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -20,8 +26,8 @@ body {
 }
 
 .sidebar img {
-  margin-top: 2%;
-  border-radius: 10px;
+  margin: 40px 0 10px 0;
+  border-radius: 20px;
 }
 .sidebar h2 {
   padding: 0;
@@ -33,8 +39,8 @@ body {
   margin-top: 2%;
   width: 250px;
   display: block;
-  color: white;
-  background-color: #3d3d3d;
+  color: #000000;
+  background-color: white;
   padding: 0.7rem 0rem;
   text-decoration: none;
   text-align: center;
@@ -43,13 +49,13 @@ body {
 }
 
 .nav.active {
-  background-color: white;
-  color: #000000;
+  background-color: #3d3d3d;
+  color: white;
   font-weight: 900;
 }
 
 .nav:hover:not(.active) {
-  background-color: #f61329;
+  background-color: #707070;
   color: white;
 }
 
@@ -59,10 +65,6 @@ body {
   margin: 4% 0;
   text-decoration: none;
   font-size: 1.1rem;
-  font-weight: 900;
-}
-
-h1 {
   font-weight: 900;
 }
 
@@ -104,6 +106,7 @@ h1 {
 .icon {
   background: black;
   display: none;
+  margin: 10px;
 }
 
 #myLinks {
