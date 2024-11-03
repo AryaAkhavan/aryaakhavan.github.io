@@ -205,13 +205,6 @@ ul {
 
 /* ------------------------------------------- */
 
-.horizontal-line {
-  width: 100%;
-  height: 1px;
-  margin: 5px 0;
-  background-color: gray;
-}
-
 .new-container {
   width: 100%;
   min-height: 100px;
@@ -381,6 +374,12 @@ ul {
 }
 .new-section-bottom-footer-ul-li a i {
   padding: 5px 10px;
+}
+
+.horizontal-line {
+  width: 100%;
+  margin: 5px 0;
+  border: 0.5px solid lightgray;
 }
 
 @media screen and (max-width: 900px) {
