@@ -45,165 +45,7 @@ a:visited {
   color: rgb(45, 45, 255);
 }
 
-/* .h1-name {
-  height: 80px;
-  padding: 20px 0 30px 0;
-  font-weight: 900;
-  font-size: 18px;
-}
-.h1-name h1 {
-  color: #616161;
-}
-
-.sidebar {
-  margin: 0;
-  padding: 0;
-  width: 350px;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.sidebar img {
-  margin: 40px 0 10px 0;
-  border-radius: 20px;
-}
-.sidebar h2 {
-  padding: 0;
-  margin: 4%;
-  color: black;
-}
-
-.nav {
-  margin-top: 2%;
-  width: 250px;
-  display: block;
-  color: #000000;
-  background-color: white;
-  padding: 0.7rem 0rem;
-  text-decoration: none;
-  text-align: center;
-  font-weight: 700;
-  border-radius: 10px;
-}
-
-.nav.active {
-  background-color: #3d3d3d;
-  color: white;
-  font-weight: 900;
-}
-
-.nav:hover:not(.active) {
-  background-color: #707070;
-  color: white;
-}
-
-.mail,
-.googlescholar {
-  color: black;
-  margin: 4% 0;
-  text-decoration: none;
-  font-size: 1.1rem;
-  font-weight: 900;
-}
-
-.container {
-  margin-left: 350px;
-  padding: 1px 16px;
-  height: 1000px;
-  color: #3d3d3d;
-}
-.container h2 {
-  color: #616161;
-}
-.about-me {
-  padding-left: 4%;
-  font-size: 1.07rem;
-  line-height: 1.6;
-}
-.about-me a {
-  text-decoration: none;
-}
-
-.education {
-  margin: 0;
-  padding: 0;
-  padding-left: 4%;
-  line-height: 1.6;
-  margin-bottom: 2%;
-  margin-top: 2%;
-}
-.hreducation {
-  margin-left: 4%;
-}
-
-.publication-link,
-.publication-link:visited,
-.publication-link:hover,
-.publication-link:active {
-  text-decoration: none;
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
-.icon {
-  background: black;
-  display: none;
-  margin: 10px;
-}
-
-#myLinks {
-  display: none;
-}
-
-#myLinks a {
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-ul {
-  padding-left: 4%;
-}
-
-@media screen and (max-width: 760px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .sidebar a {
-    float: center;
-  }
-  .container {
-    margin-left: 0;
-  }
-  .mail {
-    margin: 2% 0;
-  }
-  .googlescholar {
-    margin: 2% 0;
-  }
-  .icon {
-    background: black;
-    color: white;
-    padding: 2%;
-    border-radius: 10px;
-    display: block;
-  }
-  .nav {
-    display: none;
-  }
-} */
-
-/* ------------------------------------------- */
+/* start */
 
 .new-container {
   width: 100%;
@@ -323,18 +165,27 @@ ul {
 }
 
 .new-section-middle-section-publication-list li {
+  min-height: 10px;
   padding: 5px 0 5px 0;
 }
 
 .new-section-middle-section-publication-list li a {
-  padding: 0 0 10px 0;
+  min-height: 10px;
   font-size: 16px;
   text-decoration: none;
+}
+.new-section-middle-section-publication-list li a strong {
+  min-height: 10px;
 }
 
 .new-section-middle-section-publication-list li p {
   font-size: 13px;
-  /* padding: 10px 0; */
+}
+.new-section-middle-section-publication-list li p:nth-child(odd) {
+  padding: 0 0 8px 0;
+}
+.new-section-middle-section-publication-list li p:nth-child(even) {
+  padding: 3px 0 0 0;
 }
 
 /* bottom section */
