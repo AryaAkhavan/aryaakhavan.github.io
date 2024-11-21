@@ -95,7 +95,7 @@ a:visited {
 
 .new-main-top-section-left-about-me-text {
   padding: 10px 10px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -117,12 +117,12 @@ a:visited {
 .new-main-top-section-left-about-me-education-list li h3,
 .new-main-top-section-left-about-me-work-list li h3 {
   padding: 0 0 2px 0;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .new-main-top-section-left-about-me-education-list li p,
 .new-main-top-section-left-about-me-work-list li p {
-  font-size: 13px;
+  font-size: 14px;
   /* padding: 10px 0; */
 }
 
@@ -171,7 +171,7 @@ a:visited {
 
 .new-section-middle-section-publication-list li a {
   min-height: 10px;
-  font-size: 16px;
+  font-size: 17px;
   text-decoration: none;
 }
 .new-section-middle-section-publication-list li a strong {
@@ -179,7 +179,7 @@ a:visited {
 }
 
 .new-section-middle-section-publication-list li p {
-  font-size: 13px;
+  font-size: 14px;
 }
 .new-section-middle-section-publication-list li p:nth-child(odd) {
   padding: 0 0 8px 0;
