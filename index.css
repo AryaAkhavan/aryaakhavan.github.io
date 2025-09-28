@@ -126,6 +126,10 @@ a:visited {
   /* padding: 10px 0; */
 }
 
+.education {
+  padding: 2px 0px 2px 0px;
+}
+
 .new-main-top-section-right {
   width: 30%;
   min-height: 540px;
