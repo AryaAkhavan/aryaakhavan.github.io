@@ -50,14 +50,14 @@ a:visited {
 .new-container {
   width: 100%;
   min-height: 100px;
-  padding: 0 10px;
+  padding: 0 40px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   background-color: white;
 }
 .new {
-  width: 900px;
+  width: min(1400px, 100%);
   min-height: 10px;
   padding: 40px 0 10px 0;
   display: flex;
@@ -70,12 +70,15 @@ a:visited {
   min-height: 10px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-start;
+  column-gap: 3cm;
 }
 .new-main-top-section-left {
-  width: 65%;
+  width: auto;
+  min-width: 0;
   min-height: 540px;
+  flex: 1 1 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -131,16 +134,21 @@ a:visited {
 }
 
 .new-main-top-section-right {
-  width: 30%;
-  min-height: 540px;
+  width: 500px;
+  min-height: 0;
+  flex: 0 0 500px;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  transform: translateX(18px);
 }
 .new-main-top-section-right-img {
-  width: 200px;
-  height: 100%;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(20, 35, 55, 0.14);
 }
 
 /* middle section */
@@ -177,6 +185,11 @@ a:visited {
   min-height: 10px;
   font-size: 17px;
   text-decoration: none;
+}
+.new-section-middle-section-publication-list .publication-title {
+  display: block;
+  min-height: 10px;
+  font-size: 17px;
 }
 .new-section-middle-section-publication-list li a strong {
   min-height: 10px;
@@ -237,7 +250,10 @@ a:visited {
   border: 0.5px solid lightgray;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1050px) {
+  .new-container {
+    padding: 0 16px;
+  }
   .new {
     width: 100%;
     padding: 10px 0 10px 0;
@@ -247,14 +263,22 @@ a:visited {
     flex-direction: column-reverse;
     justify-content: flex-start;
     align-items: flex-start;
+    column-gap: 0;
   }
 
   .new-main-top-section-right {
     width: 100%;
-    min-height: 300px;
+    min-height: 0;
+    flex: 0 0 auto;
+    padding: 0 0 24px;
+    transform: none;
+  }
+  .new-main-top-section-right-img {
+    max-width: 820px;
   }
   .new-main-top-section-left {
     width: 100%;
+    flex: 0 0 auto;
   }
   .new-section-middle-section {
     width: 100%;
